@@ -1,0 +1,13 @@
+Java Factory Design Pattern
+
+In this design pattern we can create an object from a factory class without
+exposing the creation of logic to the client. Objects will be created by an interface
+or abstract class. The type of the object will be one of the subclasses
+and it will depend upon the input which we pass to the factory.
+
+The Main advantage of factory design pattern is to provide the loose-coupling
+
+In this package is an example of different colors like Red, Blue, Pink and Yellow.
+The Color Interface and sub classes will implement the Color interface. Then the ColorFactory
+will get the different color types of objects and will pass the color type to the ColorFactory
+to get that type of object.

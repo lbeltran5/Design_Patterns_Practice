@@ -1,0 +1,15 @@
+Java Abstract Factor Design Pattern
+
+This design pattern is one level higher than the factory design pattern.
+In abstract factory design pattern the super factory is responsible to create other factories of related objects.
+A factory will be created from a super factory class without exposing the creation logic
+to the client. Now, this factory will be responsible to create objects based on Factory Design Pattern.
+
+The Main advantage of factory design pattern is it provides the loose-coupling
+
+We can add another entity type like Shape, by creating another interface "Shape" which will be implemented
+by corresponding sub classes. Creating AbstractFactory class, next, create ShapeFactory which will extend the AbstractFactory.
+A FactoryGenerator class is created to get the factory object.
+
+ColorFactory is responsible to create different colors like Red, Blue, Pink and Yellow. ShapeFactory is responsible to create
+different colors like Circle, Square, Triangle, Rectangle.
