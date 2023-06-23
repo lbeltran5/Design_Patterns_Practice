@@ -1,0 +1,14 @@
+Builder Design Pattern
+
+This design pattern builds a complex object using simple objects. This type of design pattern
+comes under creational pattern as this pattern provides one of the best ways to create an object.
+
+A Builder class builds the final object step by step. This builder is independent of other objects.
+
+In this package we take an example of a mexican american restaurant where typical meal could
+be a burger and a cold drink. The burger and drink will be packed by a wrapper which is the Botella class
+By creating an item interface representing food items such as burgers or drinks and concrete
+classes implementing the Item interface and a Packing interface representing packaging of food items and concrete classes
+which implements the Packing interface as burger would be packed in the wrapper and drink packed as bottle.
+Then we create a Meal class having ArrayList of Item and a MealBuilder to build different types of Meal object by combining
+Item. BuilderPatternTest will use this MealBuilder to build the meal.
