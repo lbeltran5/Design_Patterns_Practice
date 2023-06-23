@@ -1,6 +1,5 @@
 package practice.designPatterns.abstractFactoryDesignPattern;
 
-import org.designPatterns.factoryDesignPattern.*;
 import practice.designPatterns.factoryDesignPattern.*;
 
 public class ShapeFactory extends AbstractFactory{
